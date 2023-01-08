@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="160mm"
+   height="297mm"
+   viewBox="0 0 160 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="code-schematic.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="278.61002"
+     inkscape:cy="799.90924"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1865"
+     inkscape:window-height="1145"
+     inkscape:window-x="55"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot815"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.23945881,0,0,0.23945881,168.04004,37.488719)"><flowRegion
+         id="flowRegion817"><rect
+           id="rect819"
+           width="282.85712"
+           height="257.14285"
+           x="-457.14285"
+           y="162.51968" /></flowRegion><flowPara
+         id="flowPara821"
+         style="font-size:16px;text-align:start;text-anchor:start">StatisticalModelBase</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.51134819;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1012"
+       width="157.6183"
+       height="55.624336"
+       x="1.4850789"
+       y="74.156212" />
+    <rect
+       style="opacity:1;fill:#89daff;fill-opacity:1;stroke:#000000;stroke-width:0.51134825;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1014"
+       width="71.153481"
+       height="18.301497"
+       x="6.5804458"
+       y="84.41584" />
+    <flowRoot
+       transform="matrix(0.23945881,0,0,0.23945881,133.26137,47.171638)"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1022"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1018"
+         style="text-align:center;text-anchor:middle"><rect
+           y="159.66254"
+           x="-521.42859"
+           height="257.14285"
+           width="295.71411"
+           id="rect1016"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         style="font-size:16px;text-align:center;text-anchor:middle"
+         id="flowPara1020">SSM</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect980"
+       width="60.115944"
+       height="8.9117041"
+       x="12.099215"
+       y="90.893494" />
+    <flowRoot
+       transform="matrix(0.17262572,0,0,0.17262572,93.797087,65.878634)"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot988"
+       xml:space="preserve"><flowRegion
+         id="flowRegion984"
+         style="text-align:center;text-anchor:middle"><rect
+           y="160.25696"
+           x="-474.07187"
+           height="220.29767"
+           width="349.59735"
+           id="rect982"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         style="font-size:20.43599129px;text-align:center;text-anchor:middle"
+         id="flowPara986">StatisticalModelBase</flowPara></flowRoot>    <rect
+       y="84.41584"
+       x="82.249496"
+       height="18.301497"
+       width="71.153481"
+       id="rect1074"
+       style="opacity:1;fill:#ffd089;fill-opacity:1;stroke:#000000;stroke-width:0.51134825;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1082"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.23945881,0,0,0.23945881,207.46464,47.171638)"><flowRegion
+         style="text-align:center;text-anchor:middle"
+         id="flowRegion1078"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect1076"
+           width="295.71411"
+           height="257.14285"
+           x="-521.42859"
+           y="159.66254" /></flowRegion><flowPara
+         id="flowPara1080"
+         style="font-size:16px;text-align:center;text-anchor:middle">SAM</flowPara></flowRoot>    <rect
+       y="106.44607"
+       x="6.5804458"
+       height="19.269062"
+       width="146.62314"
+       id="rect1106"
+       style="opacity:1;fill:#89ffd9;fill-opacity:1;stroke:#000000;stroke-width:0.51134825;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1114"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.23945881,0,0,0.23945881,169.40869,68.872709)"><flowRegion
+         style="text-align:center;text-anchor:middle"
+         id="flowRegion1110"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect1108"
+           width="295.71411"
+           height="257.14285"
+           x="-521.42859"
+           y="159.66254" /></flowRegion><flowPara
+         id="flowPara1112"
+         style="font-size:14.73229504px;text-align:center;text-anchor:middle">SSAM</flowPara></flowRoot>    <rect
+       y="90.893494"
+       x="87.768265"
+       height="8.9117041"
+       width="60.115944"
+       id="rect925"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot933"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.17262572,0,0,0.17262572,169.46614,65.878634)"><flowRegion
+         style="text-align:center;text-anchor:middle"
+         id="flowRegion929"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect927"
+           width="349.59735"
+           height="220.29767"
+           x="-474.07187"
+           y="160.25696" /></flowRegion><flowPara
+         id="flowPara931"
+         style="font-size:20.43599129px;text-align:center;text-anchor:middle">StatisticalModelBase</flowPara></flowRoot>    <rect
+       y="112.02621"
+       x="12.06525"
+       height="8.9796324"
+       width="39.699299"
+       id="rect937"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot945"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.17262572,0,0,0.17262572,83.5548,87.045308)"><flowRegion
+         style="text-align:center;text-anchor:middle"
+         id="flowRegion941"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect939"
+           width="349.59735"
+           height="220.29767"
+           x="-474.07187"
+           y="160.25696" /></flowRegion><flowPara
+         id="flowPara943"
+         style="font-size:20.43599129px;text-align:center;text-anchor:middle">StatisticalModelBase</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#89daff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect949"
+       width="39.564819"
+       height="8.8451529"
+       x="60.166451"
+       y="112.28244" />
+    <flowRoot
+       transform="matrix(0.17262572,0,0,0.17262572,131.668,87.203296)"
+       style="font-style:normal;font-weight:normal;font-size:20.43599129px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot957"
+       xml:space="preserve"><flowRegion
+         id="flowRegion953"
+         style="text-align:center;text-anchor:middle"><rect
+           y="160.25696"
+           x="-474.07187"
+           height="220.29767"
+           width="349.59735"
+           id="rect951"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         style="font-size:20.43599129px;text-align:center;text-anchor:middle"
+         id="flowPara955">SSM</flowPara></flowRoot>    <rect
+       y="112.28244"
+       x="108.10068"
+       height="8.8451529"
+       width="39.564819"
+       id="rect973"
+       style="opacity:1;fill:#ffd089;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot981"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.17262572,0,0,0.17262572,179.60222,87.203296)"><flowRegion
+         style="text-align:center;text-anchor:middle"
+         id="flowRegion977"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect975"
+           width="349.59735"
+           height="220.29767"
+           x="-474.07187"
+           y="160.25696" /></flowRegion><flowPara
+         id="flowPara979"
+         style="font-size:20.43599129px;text-align:center;text-anchor:middle">SAM</flowPara></flowRoot>  </g>
+</svg>
