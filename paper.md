@@ -2,10 +2,9 @@
 title: '`pyssam` -- a Python library for statistical modelling of biomedical shape and appearance'
 tags:
   - Python
-  - PyTorch
-  - fluid flows
-  - reduced-order modeling
-  - modal analysis
+  - Bioinformatics
+  - Medical image processing
+  - Statistics
 authors:
   - name: Josh Williams
     corresponding: true
@@ -76,7 +75,7 @@ import pyssam
 
 tree_class = pyssam.datasets.Tree(num_extra_ends=1)
 landmark_coordinates = np.array(
-  [tree_class.make_tree_landmarks() for i in range(0, num_samples)]
+    [tree_class.make_tree_landmarks() for i in range(0, num_samples)]
 )
 
 ssm_obj = pyssam.SSM(landmark_coordinates)
@@ -84,17 +83,7 @@ ssm_obj.create_pca_model(ssm_obj.landmarks_scale)
 mean_shape_columnvector = ssm_obj.compute_dataset_mean()
 ```
 
-![Schematic overview of the codebase. Each modelling class is abstracted from the `StatisticalModelBase` class and contains several inherited variables such as model weights and principal components. The `SSAM` class inherits from `StatisticalModelBase`, but also uses pre-processing pipelines from `SSM` and `SAM`.\label{fig:code}](figures/code-schematic.pdf){ width=100% }
-<!-- 
-\begin{figure}
-    \centering
-    \begin{tabular}{c c}
-        (a) & (b)  \\
-        \includegraphics{figures/tree-dataset-annotated.pdf} & \includegraphics{figures/tree-cumvar.pdf}
-    \end{tabular}
-    \caption{Overview of tree dataset population. Panels show (a) a visualisation of 100 tree samples, and (b) cumulative variance versus the number of PCA components constructed by the statistical shape model. Inset of (a) shows a legend describing the morphological parameters varied to create the tree dataset. These parameters include the initial branch length, $L_1$, the branch length ratio $L_R = L_2/L_1$, and branching angle $\theta$.}
-    \label{fig:tree}
-\end{figure} -->
+![Overview of tree dataset population. Panels show (a) a visualisation of 100 tree samples, and (b) cumulative variance versus the number of PCA components constructed by the statistical shape model. Inset of (a) shows a legend describing the morphological parameters varied to create the tree dataset. These parameters include the initial branch length, $L_1$, the branch length ratio $L_R = L_2/L_1$, and branching angle $\theta$.\label{fig:tree}](figures/figure2-tree-example.pdf){ width=100% }
 
 \subsection{Shape and appearance modelling of lung shape and chest X-ray images}
 
@@ -124,7 +113,7 @@ The shape and appearance modes can then be computed based on the model parameter
 The computed model parameters (eigenvectors and eigenvalues of the covariance matrix) can be used to morph the shape and appearance using `ssam.morph_model` (part of `StatisticalModelBase` in \autoref{fig:code}) by 
 
 \begin{equation}\label{eq:ssm}
-\boldsymbol{x} \approx \bar{\boldsymbol{x}} + \boldsymbol{\Phi} \cdot \boldsymbol{b}
+\boldsymbol{x} \approx \bar{\boldsymbol{x}} + \boldsymbol{\Phi} \cdot \boldsymbol{b}  
 \end{equation}
 
 where $\boldsymbol{x}$ is a new array containing shape and appearance, $\bar{\boldsymbol{x}}$ is the training dataset mean shape and appearance, $\boldsymbol{\Phi}$ is the model principal components (eigenvectors of the training data covariance matrix), $\boldsymbol{b}$ is the model parameters, which is an array of weights unique to each data sample.
