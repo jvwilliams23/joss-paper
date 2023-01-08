@@ -123,7 +123,9 @@ mean_shape_appearance_columnvector = ssam_obj.compute_dataset_mean()
 The shape and appearance modes can then be computed based on the model parameters (`ssam.model_parameters`). 
 The computed model parameters (eigenvectors and eigenvalues of the covariance matrix) can be used to morph the shape and appearance using `ssam.morph_model` (part of `StatisticalModelBase` in \autoref{fig:code}) by 
 
-$$ \boldsymbol{x} \approx \bar{\boldsymbol{x}} + \boldsymbol{\Phi} \cdot \boldsymbol{b} $$
+\begin{equation}\label{eq:ssm}
+\boldsymbol{x} \approx \bar{\boldsymbol{x}} + \boldsymbol{\Phi} \cdot \boldsymbol{b}
+\end{equation}
 
 where $\boldsymbol{x}$ is a new array containing shape and appearance, $\bar{\boldsymbol{x}}$ is the training dataset mean shape and appearance, $\boldsymbol{\Phi}$ is the model principal components (eigenvectors of the training data covariance matrix), $\boldsymbol{b}$ is the model parameters, which is an array of weights unique to each data sample.
 The model parameter a mode $m$ should be within $[-3\sqrt{\boldsymbol{\sigma_m^2}}, 3\sqrt{\boldsymbol{\sigma_m^2}}]$, where $\sigma_m^2$ is the explained variance of $m$ ($m^{th}$ largest eigenvalue of the covariance matrix) [@cootes1995active]. 
