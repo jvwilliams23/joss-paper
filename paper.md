@@ -76,7 +76,7 @@ import pyssam
 
 tree_class = pyssam.datasets.Tree(num_extra_ends=1)
 landmark_coordinates = np.array(
-[tree_class.make_tree_landmarks() for i in range(0, num_samples)]
+  [tree_class.make_tree_landmarks() for i in range(0, num_samples)]
 )
 
 ssm_obj = pyssam.SSM(landmark_coordinates)
