@@ -44,7 +44,7 @@ We provide Jupyter notebooks on [readthedocs](https://pyssam.readthedocs.io/en/l
 
 # Overview
 
-The main modelling classes are built on the abstract base class `StatisticalModelBase`, which has several methods for pre-processing data and performing PCA (\autoref{fig:code}).
+The main modelling classes are built on the abstract base class `StatisticalModelBase`, which has several methods for pre-processing data and performing PCA (Figure 1).
 There are also several global variables that are inherited which are related to principal components, component variances and model parameters.
 The classes for `SSM` and `SAM` pre-process the data (align to zero mean and standard deviation of one) and can compute the population mean shape/appearance.
 Finally, the `SSAM` class for shape and appearance modelling inherits all of these, but also imports the `SSM` and `SAM` methods to pre-process shape and appearance features separately, before they are merged into one dataset for modelling.
@@ -62,7 +62,7 @@ This example considers shape and appearance, where the appearance is the gray-va
 
 \subsection{Statistical shape modelling toy dataset} \label{sec:tree}
 To understand the shape modelling process, we have provided a dataset class called `Tree` which creates a number of tree shapes which are randomly computed based on global minimum and maximum values for angle and branch length ratio (between parent and child).
-Tree parameters are shown in \autoref{fig:tree}a.
+Tree parameters are shown in Figure 2a.
 Tree nodes are converted to a numpy array and used to initialise `pyssam.SSM`.
 At initialisation of the `SSM` class, the landmarks are aligned, scaled to unit standard deviation and stacked into a matrix of shape $(N_f, 3N_L)$ where $N_f$ is the number of features (samples in our training dataset) and $N_L$ is the number of landmarks (each with a $x,y,z$ coordinates).
 All $y$ coordinates in this case are zero, meaning the data is actually 2D but we preserve a 3D coordinate system for simplicity in generalising the code to more common 3D applications.
@@ -101,7 +101,7 @@ appearance_values = appearance_xr.all_landmark_density(
 )
 ```
 
-The SSAM can then be trained in a similar way as the SSM in \autoref{sec:tree} with the following code snippet:
+The SSAM can then be trained in a similar way as the SSM in Figure 2 with the following code snippet:
 
 ```python
 ssam_obj = pyssam.SSAM(landmark_coordinates, appearance_values)
@@ -110,7 +110,7 @@ mean_shape_appearance_columnvector = ssam_obj.compute_dataset_mean()
 ```
 
 The shape and appearance modes can then be computed based on the model parameters (`ssam.model_parameters`). 
-The computed model parameters (eigenvectors and eigenvalues of the covariance matrix) can be used to morph the shape and appearance using `ssam.morph_model` (part of `StatisticalModelBase` in \autoref{fig:code}) by 
+The computed model parameters (eigenvectors and eigenvalues of the covariance matrix) can be used to morph the shape and appearance using `ssam.morph_model` (part of `StatisticalModelBase` in Figure 1) by 
 
 \begin{equation}\label{eq:ssm}
 \boldsymbol{x} \approx \bar{\boldsymbol{x}} + \boldsymbol{\Phi} \cdot \boldsymbol{b}  
@@ -119,7 +119,7 @@ The computed model parameters (eigenvectors and eigenvalues of the covariance ma
 where $\boldsymbol{x}$ is a new array containing shape and appearance, $\bar{\boldsymbol{x}}$ is the training dataset mean shape and appearance, $\boldsymbol{\Phi}$ is the model principal components (eigenvectors of the training data covariance matrix), $\boldsymbol{b}$ is the model parameters, which is an array of weights unique to each data sample.
 The model parameter a mode $m$ should be within $[-3\sqrt{\boldsymbol{\sigma_m^2}}, 3\sqrt{\boldsymbol{\sigma_m^2}}]$, where $\sigma_m^2$ is the explained variance of $m$ ($m^{th}$ largest eigenvalue of the covariance matrix) [@cootes1995active]. 
 
-Each mode of shape and appearance variation is visualised, as shown for a representative mode in \autoref{fig:lungSSAM}.
+Each mode of shape and appearance variation is visualised, as shown for a representative mode in Figure 3.
 This shows how lung shape influences the gray-value of lung pixels on the X-ray image. 
 In this case, the change in shape and appearance are mainly due to how the lung interacts with adjacent structures such as the heart, rib cage and diaphragm.
 
