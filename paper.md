@@ -123,7 +123,7 @@ Each mode of shape and appearance variation is visualised, as shown for a repres
 This shows how lung shape influences the gray-value of lung pixels on the X-ray image. 
 In this case, the change in shape and appearance are mainly due to how the lung interacts with adjacent structures such as the heart, rib cage and diaphragm.
 
-![First mode of SSAM variation for lung lobe dataset. Panels show shape and appearance morphed using `ssam.morph_model` method and varying the model parameters (`ssam.model_parameters`), from -2, 0 (mean shape) and 2.\label{fig:lungSSAM}](figures/lung_ssam_mode1.pdf){ width=100% }
+![First mode of SSAM variation for lung lobe dataset. Panels show shape and appearance morphed using `ssam.morph_model` method and varying the model parameters (`ssam.model_parameters`), from -2, 0 (mean shape) and 2.\label{fig:lungSSAM}](figures/figure3-300.png){ width=100% }
 
 \section*{Acknowledgement}
 JW was funded by a 2019 PhD Scholarship from the Carnegie-Trust for the Universities of Scotland. 
@@ -132,5 +132,3 @@ JW was funded by a 2019 PhD Scholarship from the Carnegie-Trust for the Universi
 
 
 # References
-
-[def]: figures/code-schematic.pdf
