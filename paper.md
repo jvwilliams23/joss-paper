@@ -128,7 +128,7 @@ In this case, the change in shape and appearance are mainly due to how the lung 
 \section*{Acknowledgement}
 JW was funded by a 2019 PhD Scholarship from the Carnegie-Trust for the Universities of Scotland. 
 
-\bibliography{pyssam_refs}
+\bibliography{paper}
 
 
 # References
