@@ -49,7 +49,7 @@ There are also several global variables that are inherited which are related to 
 The classes for `SSM` and `SAM` pre-process the data (align to zero mean and standard deviation of one) and can compute the population mean shape/appearance.
 Finally, the `SSAM` class for shape and appearance modelling inherits all of these, but also imports the `SSM` and `SAM` methods to pre-process shape and appearance features separately, before they are merged into one dataset for modelling.
 
-![Schematic overview of the codebase. Each modelling class is abstracted from the `StatisticalModelBase` class and contains several inherited variables such as model weights and principal components. The `SSAM` class inherits from `StatisticalModelBase`, but also uses pre-processing pipelines from `SSM` and `SAM`.\label{fig:code}](figures/code-schematic.pdf){ width=100% }
+<!-- ![Schematic overview of the codebase. Each modelling class is abstracted from the `StatisticalModelBase` class and contains several inherited variables such as model weights and principal components. The `SSAM` class inherits from `StatisticalModelBase`, but also uses pre-processing pipelines from `SSM` and `SAM`.\label{fig:code}](figures/code-schematic.pdf){ width=100% } -->
 
 
 \section{Examples}
@@ -83,7 +83,7 @@ ssm_obj.create_pca_model(ssm_obj.landmarks_scale)
 mean_shape_columnvector = ssm_obj.compute_dataset_mean()
 ```
 
-![Overview of tree dataset population. Panels show (a) a visualisation of 100 tree samples, and (b) cumulative variance versus the number of PCA components constructed by the statistical shape model. Inset of (a) shows a legend describing the morphological parameters varied to create the tree dataset. These parameters include the initial branch length, $L_1$, the branch length ratio $L_R = L_2/L_1$, and branching angle $\theta$.\label{fig:tree}](figures/figure2-tree-example.pdf){ width=100% }
+<!-- ![Overview of tree dataset population. Panels show (a) a visualisation of 100 tree samples, and (b) cumulative variance versus the number of PCA components constructed by the statistical shape model. Inset of (a) shows a legend describing the morphological parameters varied to create the tree dataset. These parameters include the initial branch length, $L_1$, the branch length ratio $L_R = L_2/L_1$, and branching angle $\theta$.\label{fig:tree}](figures/figure2-tree-example.pdf){ width=100% } -->
 
 \subsection{Shape and appearance modelling of lung shape and chest X-ray images}
 
@@ -123,7 +123,7 @@ Each mode of shape and appearance variation is visualised, as shown for a repres
 This shows how lung shape influences the gray-value of lung pixels on the X-ray image. 
 In this case, the change in shape and appearance are mainly due to how the lung interacts with adjacent structures such as the heart, rib cage and diaphragm.
 
-![First mode of SSAM variation for lung lobe dataset. Panels show shape and appearance morphed using `ssam.morph_model` method and varying the model parameters (`ssam.model_parameters`), from -2, 0 (mean shape) and 2.\label{fig:lungSSAM}](figures/figure3-300.png){ width=100% }
+<!-- ![First mode of SSAM variation for lung lobe dataset. Panels show shape and appearance morphed using `ssam.morph_model` method and varying the model parameters (`ssam.model_parameters`), from -2, 0 (mean shape) and 2.\label{fig:lungSSAM}](figures/figure3-300.png){ width=100% } -->
 
 \section*{Acknowledgement}
 JW was funded by a 2019 PhD Scholarship from the Carnegie-Trust for the Universities of Scotland. 
